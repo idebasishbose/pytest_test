@@ -1,0 +1,14 @@
+
+[project]
+name = ""
+version = ""
+description = ""
+authors = [
+    {name = "Debasish Bose", email = "devbose2008@gmail.com"},
+]
+dependencies = [
+    "pytest>=7.4.0",
+    "typer[all]>=0.9.0",
+]
+requires-python = ">=3.11"
+license = {text = "MIT"}
