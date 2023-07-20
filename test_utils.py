@@ -28,7 +28,7 @@ def test_is_true(value):
     assert result is True
 
 
-@pytest.mark.parametrize('value', ['n', 'no'])
+@pytest.mark.parametrize('value', ['nl', 'no'])
 def test_is_false(value):
     result = str_to_bool(val=value)
     assert result is False
